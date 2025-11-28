@@ -1,0 +1,17 @@
+{
+  "name": "cryptosis-api",
+  "version": "0.3.0",
+  "private": true,
+  "type": "commonjs",
+  "main": "src/index.js",
+  "description": "Cryptosis API",
+  "scripts": {
+    "dev": "node src/index.js",
+    "lint": "node --check src/index.js",
+    "test": "node src/index.js",
+    "build": "echo 'no build step yet'"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

@@ -1,3 +1,4 @@
+require('dotenv').config();
 const service = {
   name: 'Cryptosis API',
   repo: 'cryptosis-api',
